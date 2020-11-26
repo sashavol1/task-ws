@@ -66,6 +66,7 @@ export default {
       this.connection.send(JSON.stringify(apiUnSubscribe));
     },
     reset () {
+      this.connection.send(JSON.stringify(apiUnSubscribe));
       this.transactions = [];
       this.total = 0;
       // this.connection.close();
