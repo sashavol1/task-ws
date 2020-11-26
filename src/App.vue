@@ -67,6 +67,7 @@ export default {
     },
     reset () {
       this.transactions = [];
+      this.total = 0;
       // this.connection.close();
     }
   },
